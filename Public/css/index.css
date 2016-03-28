@@ -1,0 +1,48 @@
+*{ margin:0px; padding:0px; font-family:"微软雅黑"; box-sizing:border-box;-webkit-box-sizing: border-box;-webkit-tap-highlight-color:rgba(0,0,0,0);/*-webkit-user-modify:read-write-plaintext-only;*/}
+h1,h2,h3,h4,h5,h6{font-family:"微软雅黑"; font-weight:normal;}
+li{ list-style:none;}
+a{ text-decoration:none;}
+img{ border:none;}
+body{background:#ebebeb;padding-top: 48px;}
+
+.fl{float: left;}
+.fr{float: right;}
+/*a:focus,input:focus{}*/
+
+/* -----------------------------topBox------------------------------ */
+.top_Box{ width:100%; height:48px; background:#eb413d; position:fixed; top:0px; left:0px; z-index:9; display:block;}
+.top_Classify,.top_More{ width:55px; height:100%; cursor:pointer;position: absolute;top: 0px;;}
+.top_Classify img{ width:14px; margin:11px 16px;}
+.top_More img{ width:20px; margin:12px 18px;}
+.top_Title{ width:100%; height:100%; line-height: 48px; color:#fff; float:left; text-align: center;}
+.top_More{ right: 0px;}
+.top_Classify:active,.top_More:active{ background:#d43a37;}
+.top_Title span{ width:100%; height:24px; display:block; text-align:center; }
+.top_Title .top_Tt{ font-size:16px; line-height:30px;}
+.top_Title .top_Bb{ font-size:8px; line-height:20px;}
+
+.main_Box{min-width:300px;padding-bottom: 56px;}                
+.messageBox{width: 100%;padding: 10px 0px;margin-top: 12px;background: #FFFFFF;}
+.mes_T{width: 96%;height: 36px;margin: 0px auto;}
+.headImg{width: 36px;height: 36px;border-radius: 4px;overflow: hidden;margin-right: 8px;}
+.headImg img{width: 100%;height: 100%;}
+.mes_Info{width: auto;}
+.headName{height: 20px;line-height: 20px;font-size: 15px;color: #c63434;}
+.headTime{font-size: 12px;color: #808080;}
+.mes_C{width: 96%;margin: 8px auto 0px;}
+.mes_C{line-height: 18px;color: #333;font-size: 14px}
+
+.foot_Btn{width: 90%;height: 40px;display: block;position: fixed;bottom: 2px;left: 5%;z-index: 9;background: #eb413d;border-radius: 3px;text-align: center;line-height: 40px;color: #FFFFFF;}
+
+.postMes{width: 100%;padding: 5px 3%;background: #FFFFFF;}
+.postMes textarea{width: 100%;height: 100px;background: #FFFFFF;border: none;outline: none;resize: none;display: block;color: #666;font-size: 14px;line-height: 20px;}
+.post_Btn{width: 90%;height: 40px;display: block;background: #eb413d;border-radius: 3px;text-align: center;line-height: 40px;color: #FFFFFF;margin: 20px auto;}
+.post_no{background: #B1B1B1;}
+
+
+
+
+
+
+
+

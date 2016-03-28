@@ -1,0 +1,42 @@
+
+
+.login_Box,.register_Box,.getPsw_Box,.setPsw_Box{padding-bottom: 50px;}
+.l_Title{ width:100%; height:34px; line-height:34px; margin:10px auto; color:#eb413d; text-align:center; font-size:18px; }
+.info_Box{ width:86%; overflow:hidden; background:#fff; margin:0 auto; padding-top:20px;}
+.info_Input{ width:86%; height:50px; margin:5px auto; position:relative;}
+.Inp{ width:100%; height:20px; font-size:16px; color:#353535; border:none; outline:none; text-indent:10px;-webkit-tap-highlight-color:rgba(0,0,0,0);background: none;}
+.info_Line{ width:100%; height:3px; border:1px solid #C2C2C2; border-top:none;}
+.info_Input p{ font-size:10px; color:#eb413d; display:none;}
+
+.login_Btn,.register_Btn,.next_Btn,.setPsw_Btn{ width:86%; height:40px; display:block; margin:0 auto;  background:#eb413d; color:#fff; text-align:center; line-height:40px; margin-top:20px; border-radius:1px;}
+.register,.back_login{  margin-top:10px;float:left; margin-left:6%;  font-size:13px; color:#eb413d;}
+.backHome{  margin-top:10px; float:right; margin-right:6%; font-size:13px; color:#eb413d;}
+
+.regiter_Success{ width:80%; height:140px; background:#fff; border:1px solid #eb413d; position:absolute; top:30%; left:50%; margin-left:-40%;box-shadow: 2px 2px 2px #A5A5A5; border-radius:2px; display:none;}
+.regiter_Success h5{ width:100%; height:80px; line-height:82px; text-align:center; color:#eb413d; font-size:16px;font-weight: bold;}
+.regiter_Success a{ width:60%; height:34px; line-height:34px; color:#fff; text-align:center; background:#eb413d; margin:0 auto;display: block;}
+.regiter_Success a:hover,.login_Btn:hover,.register_Btn:hover{ background:#BD2925;}
+.warning{ width:20px; height:20px; background:url(../images/warning.png); background-size:contain; position:absolute; right:0px; top:0px; display:none; }
+.yanzheng{ width:30%; height:30px; position:absolute; top:48px; right:0%; background:#eb413d; color:#FDF2F2; text-align:center; line-height:30px; font-size:14px;cursor: pointer;}
+.yanzheng:hover{background:#d43a37;}
+.reg_Wait{background: #A5A5A5;}
+.reg_Wait:hover{background:#A5A5A5;}
+
+/* -----------------------------person_Info------------------------------ */
+.person_Info{ background:#f0f0f0;}
+.per_Top{ width:100%; height:90px; position:relative; overflow:hidden; border-bottom:1px solid #ddd;}
+.per_Top img{ width:100%; }
+.per_Name { width:100%; height:100%; position:absolute; top:0px; left:0px;}
+.per_Img{width: 64px;height: 64px;border-radius: 4px;overflow: hidden;margin: 13px 8px;}
+.per_Img img{width: 100%;height: 100%;;}
+.per_Name h1{ width:100%; height:50%; line-height:60px; font-size:16px; color:#FFF; text-indent:20px;}
+.per_Name h2{ width:100%; height:50%; line-height:20px; font-size:12px; color:#FFF; text-indent:20px;}
+
+.person_Info a{ width:100%; height:50px; background:#fff; display:block; border-top:1px solid #ddd; border-bottom:1px solid #ddd; margin-top:12px;}
+.icon_Per{ width:30px; height:30px; float:left;margin:10px 14px;}
+.icon_Per img{ width:100%;}	
+.icon_per_Text{ width:200px; height:100%; line-height:50px; color:#333; font-size:16px; }
+
+.person_Info .per_Eixt{width:84%; height:40px; background:#eb413d; color:#fff; text-align:center; line-height:40px; margin:20px auto;cursor: pointer;display: block;}
+
+
